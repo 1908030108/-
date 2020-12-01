@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	border:0;
+	background: none;
+}
+
+body{
+	font-family: "微软雅黑";
+	font-size:20px;
+	background:url(../../images/my_photo/bj.jpg) no-repeat;
+	color: #02b4EA;
+}
+
+a:link, a:visited{
+	text-decoration: none; 
+	color:rgb(255,255,255,0.5);
+    font-size: 16px;
+}
+
+a{
+	display: inline-block;
+	height: 48px;
+	padding:0 50px;
+	line-height: 48px;
+}
+
+a:hover{
+	background: #fe9ab5;
+}
+
+#banner{
+	width: 980px;
+	margin: 0 auto;
+}
+
+#content{
+	width:830px;
+	height:934px;
+	margin:0 auto;
+	padding-left:150px;
+	background:url(images/love_photo/conten_bg.jpg) no-repeat; 
+}
+
+
+h3{
+	width:444px;
+	height:45px;
+	font-size:20px;
+	font-weight: 100;
+	line-height:45px;
+	border-bottom:1px solid #02b4EA;
+}
+
+td{
+	height: 50px;
+}
+
+.left{
+	width: 120px;
+	text-align: right;
+}
+
+.right{
+	width:320px;
+	height: 28px;
+	border:1px solid #02b4EA;
+}
+
+input{vertical-align: middle;}
+
+select{
+	width:171px;
+	border:1px solid #02b4EA;
+}
+
+.sp{
+	color:#02b4EA;
+	font-size:40px;
+	margin-left:280px;
+}
+
+#footer{
+	width:100%;
+	height:68px;
+	color:#fff;
+	line-height: 26px;
+	background:#020202; 
+	text-align: center;
+	padding-top: 40px;
+}

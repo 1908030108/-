@@ -1,0 +1,67 @@
+/* 全局样式控制 */
+body{
+    font-size:18px;
+    font-family: "微软雅黑";
+    background: url(../../images/my_photo/7.jpg) no-repeat top center;
+    color:#fff;
+}
+
+/* 控制表单控件全部重置*/
+form,p{
+    padding:0; 
+    border:0; 
+    margin:0;   
+}
+
+/*  局部样式的控制 */
+
+/* 边框内容 */
+form{
+	width:420px;
+	height:200px;
+	border:1px solid rgb(255,255,255,0.5);
+	padding-top:60px;
+	margin-left:500px;
+	margin-top:200px;
+	border-radius: 20px;
+	background: rgb(255,255,255,0.1);
+}
+/* 文字内容 */
+p{
+    margin-top:15px;
+    text-align:center;
+}
+/* 对文本框设置，高，宽，边框，内边距 */
+.num,.pass{
+   width:165px;
+   height:18px;
+   border:2px solid rgb(255,255,255,0.5);
+   border-radius:5px;
+   color:#fff;
+   padding-left:22px;     /* 上 右 下 左*/
+}
+
+/* 放背景图片 */
+.num{
+    background:url(../../images/my_photo/3.png) no-repeat 5px center;
+}
+
+.pass{
+   background: url(../../images/my_photo/4.png) no-repeat 5px center;
+}
+
+.bt01{
+	width:190px;
+	height:25px;
+	margin-left:58px;
+	border:2px solid #534def;
+	border-radius: 3px;
+	color:#fff;
+  background:#534def;
+}
+
+a{
+  padding-left:600px;
+  text-decoration: none;
+  font-size:20px;
+}

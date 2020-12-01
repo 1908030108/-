@@ -1,0 +1,32 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+#header{
+	width:800px;
+	height:650px;
+	background: url("../../images/my_photo/teamx/teamx.jpg") no-repeat center;
+    margin-left:300px 
+ }
+ 
+ span{
+ 	margin-left:170px;
+ 	font-size:30px;
+ 	font-family: "微软雅黑";
+ 	color: green;
+ }
+#left {
+    height:2000px;
+	float: left;
+}
+
+#footer{
+	width:100%;
+	height:70px;
+	background:#020202;
+    color:#fff;
+    line-height: 26px;
+    text-align:center;
+    padding-top:50px;
+}

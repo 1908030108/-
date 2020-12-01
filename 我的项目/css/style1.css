@@ -1,0 +1,59 @@
+*{
+     margin:0;
+     padding: 0;
+     list-style: none;
+     outline: none;
+     border:0;
+     background:none;
+}
+
+body{
+	font-family:"微软雅黑";
+	font-size: 18px;
+	background: url(../../images/my_photo/bjt.gif);
+	background-size: 100% 100%;
+}
+a:link, a:visited{text-decoration: none; color:#fff;}  /*下划线*/
+
+#header{
+	width:980px;
+	height: 200px;
+    margin:0 auto;
+    padding-top:20px;
+}
+
+#nav_bg{
+	width:100%;
+	height:60px;
+	background:#02C4EA;
+	margin:0 auto;
+	padding-left:450px;
+}
+
+.nav li{
+	float: left;
+}
+
+.nav a{
+	display: inline-block;
+	height: 60px;
+	padding: 0 50px;
+	line-height:50px;
+}
+
+.nav a:hover{background:#4662D9;}
+
+#img{
+	padding-left:150px;
+	float :left;
+}
+
+#footer{
+	width:100%;
+	height:70px;
+	background:#020202;
+    color:#fff;
+    line-height: 26px;
+    text-align:center;
+    padding-top:50px;
+}

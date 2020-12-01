@@ -1,0 +1,66 @@
+*{
+	margin:0;
+    padding:0;
+    background: 0;
+}
+body{
+	font-size:20px;
+}
+
+a:link,a:visited{text-decoration: none; color:#fff;}
+
+#bg{
+	background: #02b4EA;
+	color:#fff;
+}
+#header{
+	width: 100%;
+	height:100px;
+	background:url("../../images/my_photo/SNH.png") center no-repeat #00BADD;
+}
+ .p1{
+	width:400px;
+	height:100px;
+	float:left;
+	padding-top:30px;
+}
+ .p2{
+	height:100px;
+	width:200px;
+    padding-left:800px;
+    padding-top:30px;
+    float:right;
+  }
+.red{
+	color:red;
+}
+#xmjy{
+	height:456px;
+	margin-bottom:80px;
+}
+
+#snh48{
+	height:400px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#kd48{
+	height:250px;
+	margin-bottom:20px;
+}
+
+#pinglun{
+	height:;
+}
+
+#footer{
+	width:100%;
+	height:70px;
+	background:#020202;
+    color:#fff;
+    line-height: 26px;
+    text-align:center;
+    padding-top:50px;
+    
+}
