@@ -1,0 +1,25 @@
+<html>
+<head>
+<style type="text/css">
+p[class$="a"]
+{
+color: red;
+}
+</style>
+</head>
+
+<body>
+<h1>可以应用样式：</h1>
+<p class = "abc">W3School</p>
+<p class = "acb">CSS</p>
+<p class = "bac">Html</p>
+<p class = "bca">Html</p>
+<p class = "cab">Html</p>
+<hr />
+
+<h1>无法应用样式：</h1>
+<a href="http://www.w3c.org/">W3C</a>
+<a href="http://www.microsoft.com">Microsoft</a>
+<a href="http://www.apple.com.cn">Apple</a>
+</body>
+</html>

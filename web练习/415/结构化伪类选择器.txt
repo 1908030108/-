@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style> 
+p:nth-child(2)       /*指定他的第二个段落有这个属性*/
+{
+background:#ff0000;
+}
+</style>
+</head>
+
+<body>
+<h1>标题</h1>
+<p>第一个段落。</p>
+<p>第二个段落。</p>
+<p>第三个段落。</p>
+<p>第四个段落。</p>
+<p><b>注释：</b>Internet Explorer 不支持 :nth-child() 选择器</p>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+     <title>块元素垂直内边距的合并（margin取最大值）</title>
+     <style type = "text/css">
+      .one{
+      	border-width:150px;
+      	border-height:150px;
+      	background:#fc0;
+      	margin-bottom:20px;
+      }
+      .two{
+      	width:150px;
+      	height:150px;
+      	background:purple;
+      	margin-top:40px;
+      }
+      div.father{
+         width:550px;
+      	height:550px;
+      	background:#fc0;
+      	margin-top:20px;
+      }
+      div.sum{
+      	width:150px;
+      	height:150px;
+      	background:purple;
+      	margin-top:40px;
+      }
+     </style>
+</head>
+
+<body>
+  <div class = "one"></div>
+  <div class = "two"></div>
+  <div class = "father">
+       <div class = "sum"></div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+5.盒子模型
+.content : 内容
+.padding : 内边距
+.border :  边框
+.margin : 外边距
+
+认识盒子模型（共同特点）
+以手机盒子的模型为例  
+最外层有一个矩形硬壳： margin
+泡沫填充物的外围： border 
+泡沫：padding
+手机 ：content

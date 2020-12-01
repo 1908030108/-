@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+     <title>背景的相关知识</title>
+     <style type = "text/css">
+         div{
+            width: 200px;
+            height: 200px;
+            border: 5px dashed black;
+            color: red;
+            padding: 50px;
+           
+            margin: 50px;
+            background-image:url(李白.jpg),url(3.png);    /*多个背景图片 图片的路径 哪一张图片的路径在上层，谁就在上面（图片的重合）*/
+           
+            background-position:top bottom;  /*图片的位置*/
+            background-attachment: scroll;      /*随着页面进行滚动(fixed)*/
+            background-size: contain;          /*图片的大小自适应*/ 
+            background-repeat:no-repeat;    
+            background-origin: content-box;  /*图片背景图像的显示区域*/        
+            font-size:8px;
+            }
+
+     </style>
+</head>
+
+<body>
+    <div>
+      静夜思
+     床前明月光,<br>
+     疑是地上霜。 <br>
+     举头望明月，<br>
+     低头思故乡。<br>
+    </div>
+
+</body>
+
+</html>
