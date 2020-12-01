@@ -1,0 +1,50 @@
+*{
+margin: 0px;  
+padding: 0px;
+border:0;
+background: none;
+}
+body{
+	font-family: "微软雅黑";
+	background: #fdfdfd;
+}
+#bg{
+	width: 980px;
+	height: 627px;
+	background:url(../images/child_photo/bg.jpg) no-repeat;
+	margin: 0 auto;
+	padding-top:10px;
+	padding-left:8px;   /*青春树儿童摄影排排居中*/
+}
+
+.nav{
+	background: url(../images/child_photo/nav.jpg) no-repeat;
+	width: 971px;
+	height: 86px;
+	margin: 0 auto;
+	padding: 40px 0 0 123px;
+	
+}
+.nav span{
+	color:#685649;
+	font-size:16px;
+	padding:0 30px;
+}
+.nav .margin_more{
+	margin-left: 240px;
+}
+
+#news{
+	width:980px;
+	height:300px;
+	background: url(../images/child_photo/dongtai.jpg) 60px top no-repeat;
+	margin:18px auto;
+	padding-top:120px;
+}
+
+.news_con{
+	width:294px;
+	height:256px;
+	float:left;
+	margin-left:29px;
+}
