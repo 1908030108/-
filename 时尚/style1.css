@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body{
+    font-family: "微软雅黑";
+    background: #fff9ed;
+    font-size:14px;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+#header{
+    height: 127px;
+    width: 100%;
+    background: url(../images/fashion_photo/head_bg.jpg) repeat-x;
+    border-bottom:4px solid #d5d5d5;
+}
+ 
+.nav{
+	width:980px;
+	margin:0 auto;
+}
+
+li{
+	float: left;
+}
+
+li a{
+   display:inline-block;
+   height: 91px;
+   width: 119px;
+   text-align: center;
+   line-height: 70px;
+}
+
+li a:hover{background: url(../images/fashion_photo/xuanfu.png) center center;}
+
+#content{
+   width:980px;
+   margin:0 auto;
+}
+
+#footer{
+
+}
